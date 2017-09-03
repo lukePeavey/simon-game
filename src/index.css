@@ -1,9 +1,39 @@
+/* Import Sanitize.css  */
 @import "../node_modules/sanitize.css/sanitize.css";
+/* Import Web Fonts */
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700|Squada+One');
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
-button:focy {
+button,
+input {
+  appearence: none;
+  border: none;
+  background: transparent;
+}
 
+button:focus,
+input:focus {
+  outline: none;
+  border: none;
+}
+
+@font-face {
+  font-family: 'digital-7regular';
+  src: url('fonts/digital-7-webfont.woff2') format('woff2'),
+    url('fonts/digital-7-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
