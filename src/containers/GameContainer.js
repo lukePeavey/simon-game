@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { random, isEqual, sample, range } from 'lodash';
-import delay from '../utils/delay';
+import { delay } from '../utils';
 import Game from '../components/game/Game';
 
 const buttons = [

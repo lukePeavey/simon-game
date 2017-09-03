@@ -1,7 +1,7 @@
 import styled from 'glamorous';
 import PropTypes from 'prop-types';
 import colorTool from 'tinycolor2';
-import pascalCase from '../../utils/pascalCase';
+import { pascalCase } from '../../utils';
 import { values } from 'lodash';
 import * as globals from '../../styles/global';
 
