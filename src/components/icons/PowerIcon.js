@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const PowerIcon = ({ color }) => {
   return (
@@ -13,11 +13,11 @@ const PowerIcon = ({ color }) => {
 		s12.063-5.412,12.063-12.063C24.215,8.521,22.538,5.067,19.616,2.761z"
       />
     </svg>
-  );
-};
+  )
+}
 
 PowerIcon.defaultProps = {
   color: '#eee'
-};
+}
 
-export default PowerIcon;
+export default PowerIcon

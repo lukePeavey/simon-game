@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const ResetIcon = ({ color }) => {
   return (
@@ -16,11 +16,11 @@ const ResetIcon = ({ color }) => {
  c-84.15,0-153-68.85-153-153h-51c0,112.2,91.8,204,204,204s204-91.8,204-204S360.825,89.25,248.625,89.25z" />
       </g>
     </svg>
-  );
-};
+  )
+}
 
 ResetIcon.defaultProps = {
   color: '#eee'
-};
+}
 
-export default ResetIcon;
+export default ResetIcon

@@ -1,6 +1,6 @@
-import React from 'react';
-import { css } from 'glamor';
-import Button from '../button/Button';
+import React from 'react'
+import { css } from 'glamor'
+import Button from '../button/Button'
 
 // Container for the colored buttons.
 const Buttons = ({ buttons, ...props }) =>
@@ -16,6 +16,6 @@ const Buttons = ({ buttons, ...props }) =>
         {...button}
       />
     )}
-  </div>;
+  </div>
 
-export default Buttons;
+export default Buttons

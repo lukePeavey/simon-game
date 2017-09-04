@@ -1,11 +1,11 @@
-import React from 'react';
-import styled from 'glamorous';
-import PowerIcon from '../icons/PowerIcon';
+import React from 'react'
+import styled from 'glamorous'
+import PowerIcon from '../icons/PowerIcon'
 
 const PowerButton = props =>
   <Button {...props}>
     <PowerIcon color="#999" />
-  </Button>;
+  </Button>
 // @todo rename this to avoid confusion with colored game buttons
 const Button = styled.button({
   width: 36,
@@ -19,6 +19,6 @@ const Button = styled.button({
   [':active']: {
     background: 'rgba(255,255,255,0.3)'
   }
-});
+})
 
-export default PowerButton;
+export default PowerButton

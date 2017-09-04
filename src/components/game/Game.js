@@ -1,9 +1,9 @@
-import React from 'react';
-import tinycolor from 'tinycolor2';
-import Buttons from '../buttons/Buttons';
-import CenterPanel from '../center-panel/CenterPanel';
-import styled from 'glamorous';
-import * as globals from '../../styles/global';
+import React from 'react'
+import tinycolor from 'tinycolor2'
+import Buttons from '../buttons/Buttons'
+import CenterPanel from '../center-panel/CenterPanel'
+import styled from 'glamorous'
+import * as globals from '../../styles/global'
 
 const Game = ({
   startGame,
@@ -25,7 +25,7 @@ const Game = ({
         message={rest.message}
       />
     </GameInterface>
-  </Container>;
+  </Container>
 
 /**
 |--------------------------------------------------
@@ -38,7 +38,7 @@ const Container = styled.div({
   alignItems: 'center',
   justifyContent: 'center',
   minHeight: '100vh'
-});
+})
 
 const GameInterface = styled.div({
   position: 'relative',
@@ -49,6 +49,6 @@ const GameInterface = styled.div({
   borderRadius: '50%',
   backgroundColor: globals.bgColor,
   boxShadow: `inset -4px -5px 1px 0px rgba(255, 255, 255, 0.1)`
-});
+})
 
-export default Game;
+export default Game

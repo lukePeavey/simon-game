@@ -1,9 +1,9 @@
-import React from 'react';
-import styled from 'glamorous';
-import Title from '../title/Title';
-import * as globals from '../../styles/global';
-import PowerButton from '../power-button/PowerButton';
-import LevelDisplay from './LevelDisplay';
+import React from 'react'
+import styled from 'glamorous'
+import Title from '../title/Title'
+import * as globals from '../../styles/global'
+import PowerButton from '../power-button/PowerButton'
+import LevelDisplay from './LevelDisplay'
 
 /**
  * The circular area in the center of the game interface.
@@ -19,7 +19,7 @@ const CenterPanel = ({ startGame, message, level }) =>
         {message}
       </LevelDisplay>
     </PanelContent>
-  </PanelWrapper>;
+  </PanelWrapper>
 
 const PanelWrapper = styled.div({
   position: 'absolute',
@@ -58,7 +58,7 @@ const PanelWrapper = styled.div({
     backgroundColor: globals.bgColor,
     transform: ' rotate(90deg)'
   }
-});
+})
 
 const PanelContent = styled.div({
   position: 'relative',
@@ -71,5 +71,5 @@ const PanelContent = styled.div({
   height: '30vmin',
   backgroundColor: globals.bgColor,
   borderRadius: 'inherit'
-});
-export default CenterPanel;
+})
+export default CenterPanel

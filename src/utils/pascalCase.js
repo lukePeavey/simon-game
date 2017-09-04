@@ -1,5 +1,5 @@
-import { upperFirst, camelCase } from 'lodash';
+import { upperFirst, camelCase } from 'lodash'
 
 export default function pascalCase(str) {
-  return upperFirst(camelCase(str));
+  return upperFirst(camelCase(str))
 }

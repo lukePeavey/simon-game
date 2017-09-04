@@ -1,9 +1,9 @@
-import styled from 'glamorous';
-import PropTypes from 'prop-types';
-import colorTool from 'tinycolor2';
-import { pascalCase } from '../../utils';
-import { values } from 'lodash';
-import * as globals from '../../styles/global';
+import styled from 'glamorous'
+import PropTypes from 'prop-types'
+import colorTool from 'tinycolor2'
+import { pascalCase } from '../../utils'
+import { values } from 'lodash'
+import * as globals from '../../styles/global'
 
 /**
  * The large colored buttons that make up the game interface.
@@ -29,7 +29,7 @@ const Button = styled.button(
       ? colorTool(color).brighten(20).saturate(50).toString()
       : color
   })
-);
+)
 
 Button.propTypes = {
   id: PropTypes.string.isRequired,
@@ -39,6 +39,6 @@ Button.propTypes = {
     x: PropTypes.oneOf(['left', 'right']).isRequired,
     y: PropTypes.oneOf(['top', 'bottom']).isRequired
   }).isRequired
-};
+}
 
-export default Button;
+export default Button

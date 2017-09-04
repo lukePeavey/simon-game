@@ -1,4 +1,4 @@
-import styled from 'glamorous';
+import styled from 'glamorous'
 
 const Title = styled.header({
   fontFamily: "'Squada One', cursive",
@@ -9,6 +9,6 @@ const Title = styled.header({
   textShadow: '-1px 0 1px rgba(0,0,0,0.4)',
   marginTop: '1vmin',
   marginBottom: '1vmin'
-});
+})
 
-export default Title;
+export default Title
